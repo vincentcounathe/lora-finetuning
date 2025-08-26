@@ -1,0 +1,7 @@
+*.pdf
+*.txt
+__pycache__/
+*.pyc
+results/
+stanford_notes_finetuned/
+stanford_notes_final/
