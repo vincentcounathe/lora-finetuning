@@ -1,9 +1,5 @@
-# GPT-2 + LoRA PDF Fine-tune
+# GPT-2 LoRA
 
-- Fine-tune GPT-2 on your PDFs using LoRA (~0.6% params)  
-- Extracts + cleans text → trains → generates matching text  
-- Runs easily on Google Colab (GPU recommended)
-
-```bash
-pip install transformers datasets peft torch accelerate pdfplumber evaluate
-
+This fine-tunes GPT-2 on the text from your own PDFs.  
+It uses LoRA; only a small fraction of the model’s parameters are trained.  
+It can be run on Google Colab with a GPU.  
